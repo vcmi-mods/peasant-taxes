@@ -1,0 +1,19 @@
+VERM
+!#VRz842:S^Pays taxes.^;
+!#UN:G1/139/2/z842;
+
+!#TM15:S1/999/1/255;
+
+!?TM15;
+!!DO150/0/155/1:P;
+
+!?FU150;
+!!OW:C?y1; ** check current player
+!!HEx16:O?y2; ** check owner
+!!DO151/0/6/1&y1=y2:Px16/y2;
+
+!?FU151;
+!!HEx1:C0/x16/?y1/?y2;
+!!VRy3&y1=139:Sy2*2;
+!!VRy3&y1<>139:S0;
+!!OW:Rx2/6/dy3;

@@ -1,0 +1,12 @@
+{
+        "name" : "Pesant taxes",
+        "description" : "",
+        "version" : "1.0",
+        "author" : "misiokles",
+        "contact" : "",
+        "modType" : "Script",
+
+        "scripts":[
+        "config/peasant-taxes/peasant-taxes.json"
+        ]
+}

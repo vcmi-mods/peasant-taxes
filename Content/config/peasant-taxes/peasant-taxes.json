@@ -1,0 +1,8 @@
+{
+	//general purpose script, Lua or ERM, runs on server
+	"peasantTaxes":
+	{
+		"source":"peasant-taxes/peasant-taxes.verm",
+		"implements":"ANYTHING"
+	}
+}
